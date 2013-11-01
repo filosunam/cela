@@ -84,7 +84,7 @@
     		<a href='http://www.unam.mx' target='_blank'><img src='<?php bloginfo('template_directory'); ?>/images/encabezado-unam.png' alt='Universidad Nacional Autónoma de México' /></a>    
 	        
 	        		<!-- logo -->        
-					<div class='cela-title'><a href="<?php bloginfo('home'); ?>" title="<?php bloginfo('title'); ?>"><?php if ( get_option( 'photography_logo' ) <> "" ) { ?><img src="<?php bloginfo('template_directory'); ?>/images/logo-45-cela.png" alt="logo" /><?php } else { ?><?php bloginfo('title'); ?><?php } ?></a></div>
+					<div class='cela-title'><a href="<?php bloginfo('home'); ?>" title="<?php bloginfo('title'); ?>"><img src="<?php bloginfo('template_directory'); ?>/images/logo-45-cela.png" alt="logo" /></a></div>
 					
 					<!-- Rotacion de imagenes del encabezado --> 	
 					<div id='slideshow'>
