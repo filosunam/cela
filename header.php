@@ -29,12 +29,10 @@
 	<![endif]-->
 	<?php wp_head(); ?>
 	
-<script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/js/jquery/jquery-1.4.2.min.js"></script>	
-	
 <!-- Scripts de la galería del encabezado -->
 <script src="<?php bloginfo('template_directory'); ?>/js/jquery.cross-slide.min.js" type="text/javascript"></script>
 <script type="text/javascript">
-  $(function() {
+  jQuery(document).ready(function($){
     $('#slideshow').crossSlide({
       sleep: 2,
       fade: 1
@@ -50,7 +48,7 @@
 <!-- Scripts para el fondo reajustable -->
 <script src="<?php bloginfo('template_directory'); ?>/js/fondo-reajustable.js" type="text/javascript"></script>
 <script type="text/javascript">
-	$(document).ready(function(){
+	jQuery(document).ready(function($){
 	$('#background').smartBackgroundResize({ image: "<?php bloginfo('template_directory'); ?>/images/fondo-rectoria-2.jpg"});
 	});
 </script>
