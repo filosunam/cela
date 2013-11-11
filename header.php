@@ -106,7 +106,13 @@
 
 			<div class='menu-container clear'>
        				<div id='navigation'>
-        				<?php wp_nav_menu (array( 'theme_location' => 'main-nav-menu') ); ?>
+        			<?php 
+					wp_nav_menu(array(
+  						'menu' => 'Menu 1', 
+  						'container_id' => 'cssmenu', 
+  						'walker' => new CSS_Menu_Maker_Walker()
+					)); 
+				?>
     	    		</div>
 			</div>
 
