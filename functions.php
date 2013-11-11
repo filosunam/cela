@@ -579,4 +579,4 @@ class CSS_Menu_Maker_Walker extends Walker {
     $output .= "</li>\n";
   }
 
- 
+}
