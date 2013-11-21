@@ -18,4 +18,11 @@ get_header(); ?>
 	
 
 <?php get_sidebar(); ?>
-<?php get_footer(); ?>
+
+?>
+
+        <?php wp_footer(); ?>
+</div><!-- Final de main -->        
+        
+</body>
+</html>
